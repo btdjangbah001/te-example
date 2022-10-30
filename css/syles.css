@@ -1,0 +1,64 @@
+html {
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: skyblue;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+form {
+    padding: 1rem 0 0 2rem;
+}
+
+label {
+    display: block;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+select {
+    display: inline-flex;
+    padding: 1rem;
+    margin: 1rem 0 0 1rem;
+    text-align: center;
+    width: 50%;
+    font-size: 2rem;
+}
+
+#btn {
+    width: 80%;
+    padding: 1rem;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 20px;
+    font-size: 2rem;
+}
+
+#btn:hover {
+    border: 2px solid #fff;
+    background-color: skyblue;
+    color: #fff;
+}
+
+.flex-container {
+    display: flex;
+    margin: 0 5rem;
+}
+
+.flex-item {
+    margin: 0 5rem;
+}
